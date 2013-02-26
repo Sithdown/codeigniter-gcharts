@@ -9,7 +9,7 @@ class GCharts {
 
     private function wrapscript($type,$id,$data,$options)
     {
-      $t = 'corechart'
+    	$t = 'corechart'
     	if($type=='gauge')
     	{
     		$t = 'gauge';
@@ -441,7 +441,7 @@ EOK;
 
 		$options = array_merge($opt, $options);
 
-		return $this->wrapscript('area',$id,$data,$options);
+		return $this->wrapscript('pie',$id,$data,$options);
     	
     }
 
@@ -581,4 +581,4 @@ EOK;
 
 }
 
-/* End of file GCharts.php */
+/* End of file Someclass.php */
