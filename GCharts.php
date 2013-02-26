@@ -581,4 +581,4 @@ EOK;
 
 }
 
-/* End of file Someclass.php */
+/* End of file GCharts.php */
