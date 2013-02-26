@@ -9,7 +9,7 @@ class GCharts {
 
     private function wrapscript($type,$id,$data,$options)
     {
-    	$t = 'corechart'
+    	$t = 'corechart';
     	if($type=='gauge')
     	{
     		$t = 'gauge';
@@ -43,7 +43,7 @@ $w = <<<EOK
 	function draw{$id}(){
 		var data = google.visualization.arrayToDataTable({$d});
 		var options = {$o};
-		var chart = new google.visualization.{method}(document.getElementById('chart_{$id}'));
+		var chart = new google.visualization.{$method}(document.getElementById('chart_{$id}'));
 chart.draw(data, options);
 	}
 </script>
