@@ -95,7 +95,7 @@ EOK;
 
     }
 
-    public function line()
+    public function line($id,$data=array(),$options=array())
     {
     
 		//defaults
@@ -232,7 +232,7 @@ EOK;
 
     }
 
-    public function area()
+    public function area($id,$data=array(),$options=array())
     {
     	
 		//defaults
@@ -371,7 +371,7 @@ EOK;
 
     }
 
-    public function pie()
+    public function pie($id,$data=array(),$options=array())
     {
 
 		//defaults
@@ -445,7 +445,7 @@ EOK;
     	
     }
 
-    public function column()
+    public function column($id,$data=array(),$options=array())
     {
     	
 		//defaults
